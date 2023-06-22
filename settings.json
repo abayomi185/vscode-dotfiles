@@ -1,0 +1,86 @@
+{
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "One Dark Pro",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "python.formatting.provider": "black",
+  "editor.largeFileOptimizations": false,
+  "diffEditor.maxFileSize": 0,
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "python.terminal.activateEnvironment": false,
+
+  "vim.leader": " ",
+  "vim.useSystemClipboard": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "/"],
+      "commands": ["editor.action.commentLine"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "commands": [":noh"]
+    },
+    {
+      "before": ["<leader>", "w"],
+      "commands": [":w"]
+    },
+    {
+      "before": ["<leader>", "d"],
+      "after": ["\"", "_", "d"]
+    },
+    {
+      "before": ["K"],
+      "commands": [{ "command": "editor.action.showDefinitionPreviewHover" }]
+      // This focuses the hover window
+    },
+    // {
+    //   "before": ["K"],
+    //   "commands": ["editor.action.showHover"]
+    // }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "/"],
+      "commands": ["editor.action.commentLine"]
+    },
+    {
+      "before": ["<leader>", "d"],
+      "after": ["\"", "_", "d"]
+    },
+    {
+      "before": ["<leader>", "c"],
+      "after": ["\"", "_", "c"]
+    },
+    {
+      "before": [">"],
+      "after": [">", "g", "v"]
+    },
+    {
+      "before": ["<"],
+      "after": ["<", "g", "v"]
+    }
+  ],
+  "vim.handleKeys": {
+    "<C-b>": false
+  },
+
+  "terminal.integrated.scrollback": 10000,
+  "aws.telemetry": false,
+  "diffEditor.maxComputationTime": 0,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "notebook.output.wordWrap": true,
+  "aws.codeWhisperer.importRecommendation": false,
+  "aws.codeWhisperer.shareCodeWhispererContentWithAWS": false,
+  "aws.codeWhisperer.includeSuggestionsWithCodeReferences": false
+}
