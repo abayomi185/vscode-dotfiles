@@ -46,6 +46,14 @@
     //   "before": ["K"],
     //   "commands": ["editor.action.showHover"]
     // }
+    {
+      "before": ["alt+j"],
+      "commands": ["editor.action.moveLinesDownAction"]
+    },
+    {
+      "before": ["alt+k"],
+      "commands": ["editor.action.moveLinesUpAction"]
+    }
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
     {
@@ -67,6 +75,14 @@
     {
       "before": ["<"],
       "after": ["<", "g", "v"]
+    },
+    {
+      "before": ["alt+j"],
+      "commands": ["editor.action.moveLinesDownAction"]
+    },
+    {
+      "before": ["alt+k"],
+      "commands": ["editor.action.moveLinesUpAction"]
     }
   ],
   "vim.handleKeys": {
@@ -82,5 +98,6 @@
   "notebook.output.wordWrap": true,
   "aws.codeWhisperer.importRecommendation": false,
   "aws.codeWhisperer.shareCodeWhispererContentWithAWS": false,
-  "aws.codeWhisperer.includeSuggestionsWithCodeReferences": false
+  "aws.codeWhisperer.includeSuggestionsWithCodeReferences": false,
+  "window.zoomLevel": -1
 }

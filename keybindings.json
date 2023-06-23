@@ -28,5 +28,21 @@
     "key": "l",
     "command": "editor.action.scrollRightHover",
     "when": "editorHoverFocused"
-  }
+  },
+  {
+    "key": "alt+j",
+    "command": "vim.remap",
+    "when": "inputFocus && vim.mode == 'Normal' || vim.mode == 'Visual'",
+    "args": {
+      "after": ["alt+j"]
+    }
+  },
+  {
+    "key": "alt+k",
+    "command": "vim.remap",
+    "when": "inputFocus && vim.mode == 'Normal' || vim.mode == 'Visual'",
+    "args": {
+      "after": ["alt+k"]
+    }
+  },
 ]
