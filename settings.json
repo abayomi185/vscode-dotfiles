@@ -18,6 +18,7 @@
   },
   "python.terminal.activateEnvironment": false,
 
+  // VSCode Vim
   "vim.leader": " ",
   "vim.useSystemClipboard": true,
   "vim.normalModeKeyBindingsNonRecursive": [
@@ -38,14 +39,14 @@
       "after": ["\"", "_", "d"]
     },
     {
+      // This focuses the hover window
       "before": ["K"],
       "commands": [{ "command": "editor.action.showDefinitionPreviewHover" }]
-      // This focuses the hover window
     },
     // {
     //   "before": ["K"],
     //   "commands": ["editor.action.showHover"]
-    // }
+    // },
     {
       "before": ["alt+j"],
       "commands": ["editor.action.moveLinesDownAction"]
@@ -53,6 +54,15 @@
     {
       "before": ["alt+k"],
       "commands": ["editor.action.moveLinesUpAction"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["workbench.action.quickOpen"]
+      //  "when": "inFilesPicker && inQuickOpen" }]
+    },
+    {
+      "before": ["<leader>", "s", "t"],
+      "commands": ["workbench.action.findInFiles"]
     }
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
@@ -88,6 +98,12 @@
   "vim.handleKeys": {
     "<C-b>": false
   },
+  // End of VSCode Vim
+
+  // Word completions
+  // Available options for wordBasedSuggestions
+  // "currentDocument" | "matchingDocuments" | "allDocuments",
+  "editor.wordBasedSuggestionsMode": "currentDocument",
 
   "terminal.integrated.scrollback": 10000,
   "aws.telemetry": false,
@@ -99,5 +115,6 @@
   "aws.codeWhisperer.importRecommendation": false,
   "aws.codeWhisperer.shareCodeWhispererContentWithAWS": false,
   "aws.codeWhisperer.includeSuggestionsWithCodeReferences": false,
-  "window.zoomLevel": -1
+  "editor.formatOnSave": true,
+  "jupyter.interactiveWindow.creationMode": "perFile"
 }
