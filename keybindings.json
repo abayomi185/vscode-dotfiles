@@ -54,5 +54,20 @@
     "key": "shift+tab",
     "command": "selectPrevSuggestion",
     "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "mdb.runAllPlaygroundBlocks",
+    "when": "mdb.isPlayground"
+  },
+  {
+    "key": "ctrl+alt+r",
+    "command": "-mdb.runAllPlaygroundBlocks",
+    "when": "mdb.isPlayground"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.togglePanel",
+    "when": "terminalFocus"
   }
 ]
