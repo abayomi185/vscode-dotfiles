@@ -1,0 +1,423 @@
+{
+  "editor.largeFileOptimizations": false,
+  "remote.SSH.showLoginTerminal": true,
+  "sftpSudo": true,
+  "sshfs.configs": [
+    {
+      "name": "pideck",
+      "host": "10.0.1.15",
+      "password": "delicious",
+      "username": "pi",
+      "root": "~/pi-deck"
+    },
+    {
+      "name": "serverpc",
+      "privateKeyPath": "/Users/yomi/.ssh/id_rsa",
+      "host": "10.0.1.12",
+      "root": "/home/yom/",
+      "username": "yom"
+    }
+  ],
+  "files.associations": {
+    "*.html": "html",
+    "*.jsx": "javascript"
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  // "C_Cpp.intelliSenseEngine": "Disabled"
+  "git.autofetch": true,
+  "arduino.path": "/Applications",
+  "arduino.additionalUrls": "",
+  "arduino.logLevel": "info",
+  "arduino.enableUSBDetection": true,
+  "bracket-pair-colorizer-2.colors": ["#fa26a0", "Gold", "#d6efc7"],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  // "python.languageServer": "Jedi",
+  "python.languageServer": "Pylance",
+  // @deprecated
+  // "python.formatting.autopep8Args": [
+  //   "--indent-size=2"
+  // ],
+  "stories.username": "stuck_swordtail",
+  "jupyter.interactiveWindowMode": "perFile",
+  "jupyter.askForKernelRestart": false,
+  "discord.detailsIdle": "Tinkering with Tech",
+  "discord.lowerDetailsIdle": "Beep***Boop***",
+  "terminal.integrated.fontWeightBold": "normal",
+  "sqltools.useNodeRuntime": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "One Dark",
+  "material-icon-theme.folders.theme": "specific",
+  "material-icon-theme.folders.color": "#90a4ae",
+  "workbench.sideBar.location": "right",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.statusBar.enabled": false,
+  "cmake.generator": "Unix Makefiles",
+  "python.defaultInterpreterPath": "/usr/bin/python3",
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "dart.flutterHotReloadOnSave": "all",
+  "dart.allowAnalytics": false,
+  "dart.devToolsBrowser": "default",
+  "dart.previewFlutterUiGuides": true,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "aws.sam.enableCodeLenses": false,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "json.schemas": [],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "editor.formatOnSave": true,
+  "explorer.compactFolders": false,
+  "cSpell.ignoreWords": ["Abayomi", "Ikuru"],
+  "redhat.telemetry.enabled": false,
+  "yaml.customTags": [
+    "!And",
+    "!And sequence",
+    "!If",
+    "!If sequence",
+    "!Not",
+    "!Not sequence",
+    "!Equals",
+    "!Equals sequence",
+    "!Or",
+    "!Or sequence",
+    "!FindInMap",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Join",
+    "!Join sequence",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!Sub sequence",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!ImportValue sequence",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Split sequence"
+  ],
+  "editor.inlineSuggest.enabled": true,
+  "vs-kubernetes": {
+    "vscode-kubernetes.minikube-path.mac": "/Users/yomi/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
+  },
+  "aws.telemetry": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "telemetry.telemetryLevel": "off",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "latex-workshop.view.pdf.viewer": "tab",
+  "notebook.lineNumbers": "on",
+  "cmake.configureOnOpen": true,
+  "cortex-debug.enableTelemetry": false,
+  "rest-client.enableTelemetry": false,
+  "terminal.enableAppInsights": false,
+  "editor.wordWrap": "bounded",
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": false
+  },
+  // "explorer.autoReveal": false,
+  "C_Cpp.clang_format_fallbackStyle": "Google",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "aws.samcli.enableCodeLenses": false,
+  "svelte.enable-ts-plugin": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.accessibilitySupport": "off",
+  "tabnine.experimentalAutoImports": true,
+  "editor.suggest.showMethods": true,
+  "editor.suggest.preview": true,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.snippetSuggestions": "top",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "One Dark italic",
+        "scope": [
+          "comment",
+          "entity.other.attribute-name",
+          "keyword",
+          "markup.underline.link",
+          "storage.modifier",
+          "storage.type",
+          "string.url",
+          "variable.language.super",
+          "variable.language.this"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "One Dark italic reset",
+        "scope": [
+          "keyword.operator",
+          "keyword.other.type",
+          "storage.modifier.import",
+          "storage.modifier.package",
+          "storage.type.built-in",
+          "storage.type.function.arrow",
+          "storage.type.generic",
+          "storage.type.java",
+          "storage.type.primitive"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "cSpell.userWords": ["omni"],
+  "terminal.integrated.scrollback": 100000,
+  "terminal.integrated.persistentSessionScrollback": 1000,
+  "remote.localPortHost": "allInterfaces",
+  "hexeditor.columnWidth": 8,
+  "hexeditor.showDecodedText": true,
+  "hexeditor.defaultEndianness": "little",
+  "hexeditor.inspectorType": "aside",
+  "aws.suppressPrompts": {
+    "regionAddAutomatically": true
+  },
+  // VSCode VIM
+  "vim.leader": " ",
+  "vim.useSystemClipboard": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "/"],
+      "commands": ["editor.action.commentLine"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "commands": [":noh"]
+    },
+    {
+      "before": ["<leader>", "w"],
+      "commands": [":w"]
+    },
+    {
+      "before": ["<leader>", "d"],
+      "after": ["\"", "_", "d"]
+    },
+    {
+      // This focuses the hover window
+      "before": ["K"],
+      "commands": [
+        {
+          "command": "editor.action.showDefinitionPreviewHover"
+        }
+      ]
+    },
+    // {
+    //   "before": ["K"],
+    //   "commands": ["editor.action.showHover"]
+    // },
+    {
+      "before": ["g", "r"],
+      "commands": ["editor.action.goToReferences"]
+    },
+    // MOVE LINES
+    {
+      "before": ["alt+j"],
+      "commands": ["editor.action.moveLinesDownAction"]
+    },
+    {
+      "before": ["alt+k"],
+      "commands": ["editor.action.moveLinesUpAction"]
+    },
+    // QUICK OPEN
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["workbench.action.quickOpen"]
+      //  "when": "inFilesPicker && inQuickOpen" }]
+    },
+    {
+      "before": ["<leader>", "s", "t"],
+      "commands": ["livegrep.search"]
+      // "commands": ["workbench.action.findInFiles"]
+    },
+    // BUFFER COMMANDS
+    {
+      "before": ["<leader>", "b", "h"],
+      "commands": ["workbench.action.closeEditorsToTheLeft"]
+    },
+    {
+      "before": ["<leader>", "b", "l"],
+      "commands": ["workbench.action.closeEditorsToTheRight"]
+    },
+    // CODE ACTIONS
+    {
+      "before": ["<leader>", "l", "a"],
+      "commands": ["editor.action.quickFix"]
+    },
+    {
+      "before": ["<leader>", "j"],
+      "commands": ["workbench.action.togglePanel"]
+    },
+    // FILE TREE
+    // {
+    //   "before": ["<leader>", "e"],
+    //   "commands": ["workbench.view.explorer"]
+    //   // "when": "viewContainer.workbench.view.explorer.enabled"
+    // },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    // CLOSE TAB
+    {
+      "before": ["<leader>", "c"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    },
+    // NAVIGATE TABS
+    {
+      // Navigate to the next tab
+      "before": ["<S-l>"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      // Navigate to the previous tab
+      "before": ["<S-h>"],
+      "commands": ["workbench.action.previousEditor"]
+    },
+    // DEBUG
+    {
+      "before": ["<leader>", "d", "t"],
+      "commands": ["editor.debug.action.toggleBreakpoint"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "/"],
+      "commands": ["editor.action.commentLine"]
+    },
+    {
+      "before": ["<leader>", "d"],
+      "after": ["\"", "_", "d"]
+    },
+    {
+      "before": ["<leader>", "c"],
+      "after": ["\"", "_", "c"]
+    },
+    {
+      "before": [">"],
+      "after": [">", "g", "v"]
+    },
+    {
+      "before": ["<"],
+      "after": ["<", "g", "v"]
+    },
+    // MOVE LINES
+    {
+      "before": ["<alt+j>"],
+      "commands": ["editor.action.moveLinesDownAction"]
+    },
+    {
+      "before": ["<alt+k>"],
+      "commands": ["editor.action.moveLinesUpAction"]
+    }
+  ],
+  "vim.handleKeys": {
+    "<C-b>": false
+  },
+  "window.zoomLevel": 1
+}
