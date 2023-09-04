@@ -68,7 +68,7 @@
     },
     {
       "before": ["<leader>", "s", "t"],
-      "commands": ["workbench.action.findInFiles"]
+      "commands": ["livegrep.search"]
     },
     // BUFFER COMMANDS
     {
@@ -114,6 +114,11 @@
       // Navigate to the previous tab
       "before": ["<S-h>"],
       "commands": ["workbench.action.previousEditor"]
+    },
+    // GIT
+    {
+      "before": ["<leader>", "g", "l"],
+      "commands": ["gitlens.toggleFileBlame"]
     }
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
@@ -172,5 +177,13 @@
   "jupyter.interactiveWindow.creationMode": "perFile",
   "window.commandCenter": false,
   "mdb.confirmRunAll": false,
-  "mdb.sendTelemetry": false
+  "mdb.sendTelemetry": false,
+  "window.zoomLevel": -1,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "gitlens.hovers.currentLine.over": "line"
 }
