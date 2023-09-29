@@ -88,6 +88,10 @@
       "before": ["<leader>", "j"],
       "commands": ["workbench.action.togglePanel"]
     },
+    // {
+    //   "before": ["<leader>", "t"],
+    //   "commands": ["workbench.action.togglePanel"]
+    // },
     // FILE TREE
     // {
     //   "before": ["<leader>", "e"],
@@ -178,12 +182,24 @@
   "window.commandCenter": false,
   "mdb.confirmRunAll": false,
   "mdb.sendTelemetry": false,
-  "window.zoomLevel": -1,
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "gitlens.hovers.currentLine.over": "line"
+  "gitlens.hovers.currentLine.over": "line",
+  "todohighlight.isEnable": true,
+  "todo-tree.highlights.enabled": false,
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "keep",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    }
+  }
 }
