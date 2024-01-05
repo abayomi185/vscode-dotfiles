@@ -8,7 +8,6 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "diffEditor.ignoreTrimWhitespace": false,
   "python.formatting.provider": "black",
   "editor.largeFileOptimizations": false,
   "diffEditor.maxFileSize": 0,
@@ -34,10 +33,10 @@
       "before": ["<leader>", "w"],
       "commands": [":w"]
     },
-    {
-      "before": ["<leader>", "d"],
-      "after": ["\"", "_", "d"]
-    },
+    // {
+    //   "before": ["<leader>", "d"],
+    //   "after": ["\"", "_", "d"]
+    // },
     {
       // This focuses the hover window
       "before": ["K"],
@@ -62,12 +61,12 @@
     },
     // QUICK OPEN
     {
-      "before": ["<leader>", "f"],
+      "before": ["<leader>", "f", "f"],
       "commands": ["workbench.action.quickOpen"]
       //  "when": "inFilesPicker && inQuickOpen" }]
     },
     {
-      "before": ["<leader>", "s", "t"],
+      "before": ["<leader>", "f", "w"],
       "commands": ["livegrep.search"]
     },
     // BUFFER COMMANDS
@@ -79,6 +78,11 @@
       "before": ["<leader>", "b", "l"],
       "commands": ["workbench.action.closeEditorsToTheRight"]
     },
+    {
+      "before": ["<leader>", "b", "b"],
+      "commands": ["bookmarks.toggle"],
+      "when": ["editorTextFocus"]
+    },
     // CODE ACTIONS
     {
       "before": ["<leader>", "l", "a"],
@@ -87,6 +91,12 @@
     {
       "before": ["<leader>", "j"],
       "commands": ["workbench.action.togglePanel"]
+    },
+    // DEBUG
+    {
+      "before": ["<leader>", "d", "t"],
+      "commands": ["editor.debug.action.toggleBreakpoint"],
+      "when": ["debuggersAvailable, editorTextFocus"]
     },
     // {
     //   "before": ["<leader>", "t"],
@@ -123,6 +133,11 @@
     {
       "before": ["<leader>", "g", "l"],
       "commands": ["gitlens.toggleFileBlame"]
+    },
+    // WHICH KEY
+    {
+      "before": ["<space>"],
+      "commands": ["whichkey.show"]
     }
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
@@ -154,6 +169,11 @@
     {
       "before": ["<alt+k>"],
       "commands": ["editor.action.moveLinesUpAction"]
+    },
+    // WHICH KEY
+    {
+      "before": ["<space>"],
+      "commands": ["whichkey.show"]
     }
   ],
   "vim.handleKeys": {
@@ -201,5 +221,39 @@
       "comments": false,
       "strings": true
     }
-  }
+  },
+  "yaml.customTags": [
+    "!And",
+    "!If",
+    "!Not",
+    "!Equals",
+    "!Or",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Join sequence",
+    "!And sequence",
+    "!If sequence",
+    "!Not sequence",
+    "!Equals sequence",
+    "!Or sequence",
+    "!FindInMap",
+    "!Join",
+    "!Sub sequence",
+    "!ImportValue sequence",
+    "!Split sequence"
+  ],
+  "workbench.editorAssociations": {
+    "*.md": "default",
+    "*.csv": "default"
+  },
+  "window.zoomLevel": -1
 }
