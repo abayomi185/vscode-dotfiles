@@ -40,7 +40,7 @@
     {
       // This focuses the hover window
       "before": ["K"],
-      "commands": [{ "command": "editor.action.showDefinitionPreviewHover" }]
+      "commands": ["editor.debug.action.showDebugHover"]
     },
     // {
     //   "before": ["K"],
@@ -220,7 +220,8 @@
       "other": true,
       "comments": false,
       "strings": true
-    }
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   "yaml.customTags": [
     "!And",
@@ -253,7 +254,8 @@
   ],
   "workbench.editorAssociations": {
     "*.md": "default",
-    "*.csv": "default"
+    "*.csv": "default",
+    "*.sqlite3": "sqlite3-editor.editor"
   },
   "terminal.integrated.profiles.windows": {
     "PowerShell": {
@@ -282,5 +284,7 @@
   },
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "sqltools.useNodeRuntime": true,
+  "sqlite3-editor.ui.movePanelIfSpaceAllows": "right"
 }
