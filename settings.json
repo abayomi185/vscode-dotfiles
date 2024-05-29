@@ -94,7 +94,7 @@
     },
     // DEBUG
     {
-      "before": ["<leader>", "d", "t"],
+      "before": ["<leader>", "d", "b"],
       "commands": ["editor.debug.action.toggleBreakpoint"],
       "when": ["debuggersAvailable, editorTextFocus"]
     },
@@ -138,6 +138,20 @@
     {
       "before": ["<space>"],
       "commands": ["whichkey.show"]
+    },
+    // Visual Block
+    {
+      "before": ["<leader>", "v"],
+      "after": ["<c-v>"]
+    }
+    // Editors
+    {
+      "before": ["<c-h>"],
+      "commands": ["workbench.action.focusNextGroup"]
+    }
+    {
+      "before": ["<c-l>"],
+      "commands": ["workbench.action.focusNextGroup"]
     }
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
