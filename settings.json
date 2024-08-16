@@ -134,6 +134,18 @@
       "before": ["<leader>", "g", "l"],
       "commands": ["gitlens.toggleFileBlame"]
     },
+    {
+      "before": ["<leader>", "g", "r"],
+      "commands": ["git.revertSelectedRanges"]
+    },
+    {
+      "before": ["<leader>", "g", "p"],
+      "commands": ["editor.action.dirtydiff.next"]
+    },
+    {
+      "before": ["<leader>", "g", "n"],
+      "commands": ["workbench.action.editor.nextChange"]
+    },
     // WHICH KEY
     {
       "before": ["<space>"],
