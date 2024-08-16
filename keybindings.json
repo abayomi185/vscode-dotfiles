@@ -78,7 +78,7 @@
   },
   {
     "key": "ctrl+l",
-    "command": "workbench.action.focusActiveEditorGroup",
+    "command": "workbench.action.previousEditor",
     "when": "terminalFocus"
   }
 ]
