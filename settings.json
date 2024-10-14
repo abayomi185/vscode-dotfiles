@@ -283,6 +283,7 @@
     "*.csv": "default",
     "*.sqlite3": "sqlite3-editor.editor"
   },
+  "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.profiles.windows": {
     "PowerShell": {
       "source": "PowerShell",
@@ -311,6 +312,5 @@
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "sqltools.useNodeRuntime": true,
   "sqlite3-editor.ui.movePanelIfSpaceAllows": "right"
 }
